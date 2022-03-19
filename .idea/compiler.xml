@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="48-ResultsAsStreams" />
+        <module name="55-JoinFetch" />
+        <module name="33-MapGeneratedColumns" />
+        <module name="56-Treat" />
+        <module name="58-JPQLCustomFunction" />
+        <module name="32-AttributeConverterForDateAndTime" />
+        <module name="72-MapNativeQueryToEntity" />
+        <module name="53-JPQLConstructorExpression" />
+        <module name="88-JPAMetamodel" />
+        <module name="86-CriteriaDelete" />
+        <module name="50-CommentSQLStatements" />
+        <module name="82-CriteriaTuples" />
+        <module name="80-CriteriaQuery" />
+        <module name="62-JPQLUpdate" />
+        <module name="60-QueryTimeout" />
+        <module name="73-MapNativeQueryToPojo" />
+        <module name="42-InheritanceSingleTable" />
+        <module name="71-NamedNativeQuery" />
+        <module name="70-NativeQuery" />
+        <module name="35-TransientAttributes" />
+        <module name="83-CriteriaStandardFunction" />
+        <module name="34-Formula" />
+        <module name="51-JPQLAdHocQuery" />
+        <module name="52-JPQLNamedQuery" />
+        <module name="CascadePersist" />
+        <module name="59-QueryPagination" />
+        <module name="InheritanceJoined" />
+        <module name="37-OrderRelationships" />
+        <module name="85-CriteriaUpdate" />
+        <module name="95-2ndLevelCache" />
+        <module name="36-PrePersistLifecycleEvent" />
+        <module name="81-CriteriaConstructor" />
+        <module name="84-CriteriaCustomFunction" />
+        <module name="40-InheritanceMappedSuperclass" />
+        <module name="39-AssociationsWithAttributes" />
+        <module name="57-JpqlStandardFunction" />
+        <module name="38-DerivedPrimaryKey" />
+        <module name="30-DatabaseViews" />
+        <module name="31-CustomEnumerationsMapping" />
+        <module name="47-DateAndTime" />
+        <module name="CheckSQLStatementCount" />
+        <module name="49-LogSQLStatements" />
+        <module name="45-HibernateMultipleId" />
+        <module name="61-JPQLDelete" />
+        <module name="44-HibernateNaturalId" />
+        <module name="41-InheritanceTablePerClass" />
+        <module name="43-HibernateJoinUnassociatedEntities" />
+        <module name="54-JPQLScalarValues" />
+        <module name="90-StoredProcedureQuery" />
+        <module name="87-CriteriaQueryPagination" />
+        <module name="46-MapOptionalAssociations" />
+        <module name="96-QueryCache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-JPABootstrapping" target="1.8" />
+      <module name="03-HibernateBootstrapping" target="1.8" />
+      <module name="04-SpringBootBootstrapping" target="1.8" />
+      <module name="05-AccessHibernateApi" target="1.8" />
+      <module name="07-DefineTableAndSchemaName" target="1.8" />
+      <module name="08-MapBasicAttributes" target="1.8" />
+      <module name="09-MapUtilDate" target="1.8" />
+      <module name="10-MapEnumerations" target="1.8" />
+      <module name="11-PrimaryKey" target="1.8" />
+      <module name="12-PrimaryKeyIdentityStrategy" target="1.8" />
+      <module name="13-CustomSequence" target="1.8" />
+      <module name="14-PrimaryKeyTableStrategy" target="1.8" />
+      <module name="15-PrimaryKeyUUID" target="1.8" />
+      <module name="20-AssociationBidirectionalManyToOne" target="1.8" />
+      <module name="21-AssociationUnidirectionalManyToOne" target="1.8" />
+      <module name="22-AssociationUnidirectionalOneToMany" target="1.8" />
+      <module name="23-AssociationBidirectionalManyToMany" target="1.8" />
+      <module name="24-AssociationUnidirectionalManyToMany" target="1.8" />
+      <module name="25-AssociationBidirectionalOneToOne" target="1.8" />
+      <module name="26-AssociationUnidirectionalOneToOne" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-JPABootstrapping" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="11-PrimaryKey" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="12-PrimaryKeyIdentityStrategy" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="14-PrimaryKeyTableStrategy" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="15-PrimaryKeyUUID" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="20-AssociationBidirectionalManyToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="21-AssociationUnidirectionalManyToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="22-AssociationUnidirectionalOneToMany" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="23-AssociationBidirectionalManyToMany" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="24-AssociationUnidirectionalManyToMany" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="25-AssociationBidirectionalOneToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="26-AssociationUnidirectionalOneToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="39-AssociationsWithAttributes" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="44-HibernateNaturalId" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="45-HibernateMultipleId" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="46-MapOptionalAssociations" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="47-DateAndTime" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="48-ResultsAsStreams" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="57-JpqlStandardFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="58-JPQLCustomFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="61-JPQLDelete" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="62-JPQLUpdate" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="80-CriteriaQuery" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="81-CriteriaConstructor" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="82-CriteriaTuples" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="83-CriteriaStandardFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="84-CriteriaCustomFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="85-CriteriaUpdate" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="86-CriteriaDelete" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="87-CriteriaQueryPagination" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="88-JPAMetamodel" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CascadePersist" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+    </option>
+  </component>
+</project>
